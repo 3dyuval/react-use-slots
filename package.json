@@ -7,7 +7,7 @@
   "files": ["dist"],
   "scripts": {
     "dev": "vite",
-    "build": "tsc -p tsconfig.json && tsc -p tsconfig.cjs.json && vite build",
+    "build": "tsc -p ./tsconfig.json && tsc -p ./tsconfig.cjs.json && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "postinstall": "npm run build"
