@@ -1,0 +1,43 @@
+.v-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px; /* Spacing below the component */
+}
+
+.v-input-label-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px; /* Space between label and input */
+}
+
+.v-input-label {
+  flex: 1; /* Allows the label to fill available space if needed */
+  font-weight: bold;
+  text-align: center;
+}
+
+.v-input-wrap-row {
+  display: flex;
+  align-items: center;
+}
+
+.v-input-wrap {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.v-input-field {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none; /* Removes default browser outline */
+}
+
+.v-input-wrap > * {
+  margin: 4px; /* Optional: space between prepend/append content */
+  text-align: center;
+}
